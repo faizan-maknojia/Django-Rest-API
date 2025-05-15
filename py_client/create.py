@@ -8,3 +8,4 @@ data = {
 }
 get_response = requests.post(endpoint, json=data)
 print(get_response.json()) 
+print("Second main feature!")
